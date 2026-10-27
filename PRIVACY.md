@@ -2,11 +2,11 @@
 
 Last updated: 27 October 2026
 
-QueryCraft is a plugin made of written instructions and one small helper script. It does not collect, store or send any personal data, and I do not receive any data when you use it.
+QueryCraft is a plugin made only of written instructions. It contains no code. It does not collect, store or send any personal data, and I do not receive any data when you use it.
 
 ## What QueryCraft does with your data
 
-Nothing on its own. QueryCraft has no server, no analytics, no telemetry and no API keys. It does not contact any search engine or service by itself. The link builder script only turns a query into a search URL and never sends a request.
+Nothing on its own. QueryCraft has no server, no analytics, no telemetry and no API keys. It does not contact any search engine or service by itself. Search links it suggests are only opened when you click them.
 
 Your conversations and any queries you run are handled by the app you use QueryCraft in, under that app's own privacy policy. Searches you open through a generated link are handled by the search engine you open them with, under its own privacy policy.
 
