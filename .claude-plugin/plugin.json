@@ -1,5 +1,6 @@
 {
   "name": "querycraft",
+  "displayName": "QueryCraft",
   "version": "0.3.0",
   "description": "Builds, explains and refines OSINT search queries across web search engines, internet scanners, certificate and DNS sources, web archives, code search, threat intelligence platforms and image search.",
   "author": {
@@ -9,6 +10,9 @@
   "homepage": "https://github.com/akrenon/QueryCraft",
   "repository": "https://github.com/akrenon/QueryCraft",
   "license": "Apache-2.0",
+  "documentationUrl": "https://github.com/akrenon/QueryCraft#readme",
+  "supportUrl": "https://github.com/akrenon/QueryCraft/issues",
+  "privacyPolicyUrl": "https://github.com/akrenon/QueryCraft/blob/main/PRIVACY.md",
   "keywords": [
     "osint",
     "google-dorks",
