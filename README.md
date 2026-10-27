@@ -31,18 +31,6 @@ In Claude Code:
 
 The skills answer in the language you write in.
 
-## Link builder
-
-`scripts/build_links.py` turns a query into correctly encoded search links. Claude uses it automatically when a shell is available. You can also run it yourself:
-
-```
-python3 scripts/build_links.py --list
-python3 scripts/build_links.py --engine google --engine shodan "your query"
-python3 scripts/build_links.py --all "your query"
-```
-
-It only builds URLs and never sends a request. It needs Python 3 and nothing else.
-
 ## Setup
 
 None. QueryCraft needs no API keys and does not connect to any search engine on its own. You run the queries yourself, or Claude runs them with tools you have already connected.
