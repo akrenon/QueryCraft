@@ -1,0 +1,27 @@
+{
+  "name": "querycraft",
+  "version": "0.3.0",
+  "description": "Builds, explains and refines OSINT search queries across web search engines, internet scanners, certificate and DNS sources, web archives, code search, threat intelligence platforms and image search.",
+  "author": {
+    "name": "AKRENON",
+    "url": "https://akrenon.com"
+  },
+  "homepage": "https://github.com/akrenon/QueryCraft",
+  "repository": "https://github.com/akrenon/QueryCraft",
+  "license": "Apache-2.0",
+  "keywords": [
+    "osint",
+    "google-dorks",
+    "dorking",
+    "shodan",
+    "censys",
+    "fofa",
+    "zoomeye",
+    "yandex",
+    "certificate-transparency",
+    "wayback-machine",
+    "reconnaissance",
+    "threat-intelligence",
+    "search-operators"
+  ]
+}
