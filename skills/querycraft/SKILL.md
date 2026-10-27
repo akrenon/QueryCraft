@@ -27,7 +27,7 @@ Operator support changes over time. When a search tool is available, check the e
 2. **Pick the engines.** Use the "Typical use" column above. Content on web pages and files points to web search engines. Open ports, banners and software versions point to internet scanners. Subdomains and infrastructure history point to certificate and DNS sources. Removed or changed content points to web archives. Suggest a second engine when it covers a blind spot of the first (Yandex for Russian and CIS content, Bing for its `ip:` operator, FOFA or ZoomEye for better coverage of Asian networks, crt.sh for certificates a scanner has not seen).
 3. **Build the query.** Start with a precise primary query, then give one broader and one narrower variant. Quote values that contain spaces or special characters. Keep Google queries under its 32 word limit.
 4. **Explain it.** One line per operator: what it does in this query and why it is there.
-5. **Link it.** Output a direct search link for each engine. When a shell is available, build the links with `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/build_links.py" --engine <id> "<query>"` (run `--list` for supported ids) instead of encoding by hand. For engines the script does not support, encode the query yourself and say so.
+5. **Link it.** Output a direct search link for each engine, with the query fully URL-encoded (spaces, quotes, colons and other special characters). Check each link once before output; when an engine expects a special format (FOFA, for example, takes the query base64-encoded), say so instead of guessing.
 6. **Flag limits.** Mention operators that are unreliable or deprecated, filters that need a paid plan, and typical reasons for zero results.
 
 ## Output format
